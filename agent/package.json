@@ -1,0 +1,23 @@
+{
+  "name": "frontdesk-hitl-agent",
+  "version": "1.0.0",
+  "description": "LiveKit AI Voice Agent",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js start",
+    "dev": "nodemon index.js dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@livekit/agents": "^1.0.15",
+    "@livekit/agents-plugin-google": "^1.0.0",
+    "@livekit/agents-plugin-silero": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
